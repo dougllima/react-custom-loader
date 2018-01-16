@@ -1,0 +1,26 @@
+{
+  "name": "react-simple-loader",
+  "version": "1.0.0",
+  "description": "A simple react loader fully customizable",
+  "main": "src/Loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougllima/react-loader.git"
+  },
+  "keywords": [
+    "react",
+    "loader"
+  ],
+  "author": "Douglas Lima <doug.llima@hotmail.com> (https://github.com/dougllima)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougllima/react-loader/issues"
+  },
+  "homepage": "https://github.com/dougllima/react-loader#readme",
+  "dependencies": {
+    "typestyle": "1.6.0"
+  }
+}
