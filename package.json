@@ -1,5 +1,5 @@
 {
-  "name": "react-simple-loader",
+  "name": "react-custom-loader",
   "version": "1.0.0",
   "description": "A simple react loader fully customizable",
   "main": "src/Loader.js",
