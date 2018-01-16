@@ -1,14 +1,17 @@
 {
   "name": "react-custom-loader",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "A simple react loader fully customizable",
   "main": "src/Loader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dougllima/react-loader.git"
+    "url": "https://github.com/dougllima/react-custom-loader.git"
   },
   "keywords": [
     "react",
@@ -17,12 +20,21 @@
   "author": "Douglas Lima <doug.llima@hotmail.com> (https://github.com/dougllima)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dougllima/react-loader/issues"
+    "url": "https://github.com/dougllima/react-custom-loader/issues"
   },
-  "homepage": "https://github.com/dougllima/react-loader#readme",
+  "homepage": "https://github.com/dougllima/react-custom-loader#readme",
   "dependencies": {
     "react": "16.2.0",
     "typestyle": "1.6.0",
     "webpack": "3.10.0"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "semantic-release": "^12.2.2",
+    "travis-deploy-once": "^4.3.1"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
