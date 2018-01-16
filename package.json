@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/dougllima/react-loader#readme",
   "dependencies": {
-    "typestyle": "1.6.0"
+    "react": "16.2.0",
+    "typestyle": "1.6.0",
+    "webpack": "3.10.0"
   }
 }
