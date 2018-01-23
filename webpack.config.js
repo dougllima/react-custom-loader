@@ -16,6 +16,10 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['env']
+          },
+          query: {
+            presets: ['react', 'es2015', 'react-hmre'],
+            plugins: ['transform-class-properties']
           }
         }
       }
