@@ -1,32 +1,23 @@
 {
   "name": "react-custom-loader",
-  "version": "1.0.3",
-  "description": "A simple react loader fully customizable",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dougllima/react-custom-loader.git"
-  },
-  "keywords": [
-    "react",
-    "loader"
-  ],
-  "author": "Douglas Lima <doug.llima@hotmail.com> (https://github.com/dougllima)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dougllima/react-custom-loader/issues"
-  },
-  "homepage": "https://github.com/dougllima/react-custom-loader#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "commitizen": "2.9.6",
-    "react": "16.2.0",
-    "typestyle": "1.6.0",
-    "webpack": "3.10.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts-ts": "2.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
-    "babel-plugin-transform-class-properties": "6.24.1"
+    "@types/jest": "22.1.0",
+    "@types/node": "9.4.0",
+    "@types/react": "16.0.35",
+    "@types/react-dom": "16.0.3",
+    "typescript": "2.6.2"
   }
 }
